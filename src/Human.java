@@ -28,7 +28,7 @@ public class Human {
     }
 
     static void getPopulation(){    // static method, it belongs to the class, not to the objects of the class
-        System.out.println("Total population is : "+population);
+        System.out.println("Total human population : "+population);
     }
 
     public static void main(String[] args) {
