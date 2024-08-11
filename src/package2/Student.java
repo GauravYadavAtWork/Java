@@ -10,21 +10,21 @@ public class Student extends Human {
         totalStudents ++;
     }
 
-    Student(String name, int age, String gender, String clg, int Roll){
+    public Student(String name, int age, String gender, String clg, int Roll){
         super(name, age, gender);  // super key word used to refer to the parent class
         this.college = clg;
         this.rollNo = Roll;
     }
-    Student(String name, int age, String gender, int Roll){
+    public Student(String name, int age, String gender, int Roll){
         super(name, age, gender);
         this.rollNo = Roll;
     }
 
-    void introduce(){   // method overriding
+    public void introduce(){   // method overriding
         System.out.println("I am " + name + " " + age + " year old "+ gender+" of "+college);
     }
 
-    static void totalStudents(){    // static method, it belongs to the class, not to the objects of the class
+    public static void totalStudents(){    // static method, it belongs to the class, not to the objects of the class
         System.out.println("Total Students : "+totalStudents);
     }
 

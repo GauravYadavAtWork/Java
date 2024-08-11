@@ -1,8 +1,9 @@
 package package2;
 
+import package1.Message;
+
 public class Main {
     public static void main(String[] args) {
-        Tiger t1 = new Tiger();
-        t1.sayName();
+//        Message.message();
     }
 }
