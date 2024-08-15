@@ -5,8 +5,8 @@ import java.util.Comparator;
 
 public class Employee  {
     String name;
-    int salary;
-    int id;
+    public int salary;
+    public int id;
 
     public Employee(String name, int salary, int id){
         this.name = name;
